@@ -118,24 +118,22 @@ The interactive Power BI dashboard includes:
 ```text
 client-churn-revenue-forecasting/
 │
-├── Data/
-│   ├── Raw/
-│   │   ├── Client_Master.csv
-│   │   └── Service_Transactions.csv
-│   │
-│   └── Cleaned/
-│       ├── Client_Master_Cleaned.csv
-│       └── Service_Transactions_Cleaned.csv
+├── Raw Dataset/
+│   └── Client Churn and Revenue Forecasting.zip
+│
+├── Cleaned Dataset/
+│   ├── Client_Master_Cleaned.csv
+│   └── Service_Transactions_Cleaned.csv
 │
 ├── SQL/
-│   └── Client_Churn_Analysis.sql
+│   └── Client Churn and Revenue Data Analysis.sql
 │
 ├── Power BI/
-│   └── Client_Churn_Dashboard.pbix
+│   └── Client Churn and Revenue Performance Dashboard.pbix
 │
 ├── Report/
-│   └── Client_Churn_Risk_Analysis_Report.pdf
+│   └── Client Churn Prediction and Revenue Forecasting Report.pdf
 │
 └── README.md
-
+```
 This project is intended for educational and portfolio purposes
