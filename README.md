@@ -28,9 +28,9 @@ Management aims to:
 
 ## Tools & Technologies
 
+- Microsoft Excel
 - Microsoft SQL Server
 - Microsoft Power BI
-- Microsoft Excel
 
 ---
 
