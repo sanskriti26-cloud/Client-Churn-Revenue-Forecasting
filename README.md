@@ -39,6 +39,7 @@ Management aims to:
 The project utilizes two datasets:
 
 ### Client Master
+The factors in this dataset are:
 - Client ID
 - Client Name
 - Services Subscribed
@@ -49,6 +50,7 @@ The project utilizes two datasets:
 - Contract Start Date
 
 ### Service Transactions
+The factors in this dataset are:
 - Event ID
 - Client ID
 - Year
@@ -62,7 +64,7 @@ The project utilizes two datasets:
 
 ## Data Preparation
 
-The following preprocessing steps were performed using Microsoft SQL Server:
+The following preprocessing steps were performed using Microsoft Excel:
 
 - Imported raw datasets.
 - Validated data types.
@@ -72,6 +74,14 @@ The following preprocessing steps were performed using Microsoft SQL Server:
 - Joined datasets using **Client ID**.
 - Calculated business KPIs.
 - Prepared the cleaned dataset for visualization in Power BI.
+
+## Data Analysis using SQL Server
+Data analysis was performed on both the tables, "Client Master" and "Service Transactions". This included:
+- Understanding the dataset
+- Finding factors most strongly associated with client attrition.
+- Finding clients most likely to churn in next 3 months.
+- Revenue trend analysis
+- Forecasting next 12 months' revenue based on past trend of revenue.
 
 ---
 
