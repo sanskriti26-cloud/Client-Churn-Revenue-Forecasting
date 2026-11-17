@@ -9,14 +9,12 @@ The objective is to identify clients at risk of churn, determine the key factors
 
 ## Business Problem
 The company provides the following managed IT services:
-
 - Infrastructure Management
 - Cloud Migration
 - Security Services
 - 24/7 IT Support
 
 Management aims to:
-
 - Identify clients likely to churn within the next three months.
 - Determine the key factors contributing to customer churn.
 - Forecast revenue for the next twelve months.
@@ -63,7 +61,6 @@ The factors in this dataset are:
 ## Data Preparation
 
 The following preprocessing steps were performed using Microsoft Excel:
-
 - Imported raw datasets.
 - Validated data types.
 - Checked for duplicate records.
@@ -86,7 +83,6 @@ Data analysis was performed on both the tables, "Client Master" and "Service Tra
 ## Dashboard Features
 
 The interactive Power BI dashboard includes:
-
 - Total Revenue KPI
 - Total Clients KPI
 - Client Churn Rate
@@ -100,7 +96,6 @@ The interactive Power BI dashboard includes:
 ---
 
 ## Key Insights
-
 - Total Enterprise Clients: **200**
 - Total Revenue: **88.88 Million**
 - Client Churn Rate: **18%**
