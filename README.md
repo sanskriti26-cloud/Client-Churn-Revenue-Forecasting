@@ -66,9 +66,7 @@ The following preprocessing steps were performed using Microsoft Excel:
 - Checked for duplicate records.
 - Assessed missing values.
 - Cleaned and standardized the data.
-- Joined datasets using **Client ID**.
-- Calculated business KPIs.
-- Prepared the cleaned dataset for visualization in Power BI.
+- Handles missing financial data by median of the records to fill empty records.
 
 ## Data Analysis using SQL Server
 Data analysis was performed on both the tables, "Client Master" and "Service Transactions". This included:
