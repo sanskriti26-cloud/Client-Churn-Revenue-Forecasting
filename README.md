@@ -1,7 +1,6 @@
 # Client Churn Risk Analysis & Revenue Forecasting for Managed IT Services
 
 ## Project Overview
-
 This project analyzes enterprise client churn and forecasts future revenue for a managed IT services company using **Microsoft SQL Server** and **Microsoft Power BI**.
 
 The objective is to identify clients at risk of churn, determine the key factors driving customer attrition, forecast revenue for the next 12 months, and provide data-driven recommendations to improve customer retention and business performance.
@@ -9,7 +8,6 @@ The objective is to identify clients at risk of churn, determine the key factors
 ---
 
 ## Business Problem
-
 The company provides the following managed IT services:
 
 - Infrastructure Management
