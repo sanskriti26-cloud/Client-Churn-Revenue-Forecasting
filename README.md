@@ -121,8 +121,8 @@ client-churn-revenue-forecasting/
 │   └── Client Churn and Revenue Forecasting.zip
 │
 ├── Cleaned Dataset/
-│   ├── Client_Master_Cleaned.csv
-│   └── Service_Transactions_Cleaned.csv
+│   ├── Client_Master.csv
+│   └── Service_Transactions.csv
 │
 ├── SQL/
 │   └── Client Churn and Revenue Data Analysis.sql
