@@ -1,7 +1,7 @@
 # Client Churn Risk Analysis & Revenue Forecasting for Managed IT Services
 
 ## Project Overview
-This project analyzes enterprise client churn and forecasts future revenue for a managed IT services company using **Microsoft SQL Server** and **Microsoft Power BI**.
+This project analyzes enterprise client churn and forecasts future revenue for a managed IT services company using **Microsoft Excek**, **Microsoft SQL Server** and **Microsoft Power BI**.
 
 The objective is to identify clients at risk of churn, determine the key factors driving customer attrition, forecast revenue for the next 12 months, and provide data-driven recommendations to improve customer retention and business performance.
 
@@ -34,7 +34,7 @@ Management aims to:
 
 The project utilizes two datasets:
 
-### Client Master
+### clients
 The factors in this dataset are:
 - Client ID
 - Client Name
@@ -45,7 +45,7 @@ The factors in this dataset are:
 - Customer Satisfaction Score
 - Contract Start Date
 
-### Service Transactions
+### billing_events
 The factors in this dataset are:
 - Event ID
 - Client ID
@@ -64,12 +64,11 @@ The following preprocessing steps were performed using Microsoft Excel:
 - Imported raw datasets.
 - Validated data types.
 - Checked for duplicate records.
-- Assessed missing values.
+- Handled missing values.
 - Cleaned and standardized the data.
-- Handles missing financial data by median of the records to fill empty records.
 
 ## Data Analysis using SQL Server
-Data analysis was performed on both the tables, "Client Master" and "Service Transactions". This included:
+Data analysis was performed on both the tables, "clients" and "billing_events". This included:
 - Understanding the dataset
 - Finding factors most strongly associated with client attrition.
 - Finding clients most likely to churn in next 3 months.
@@ -89,7 +88,7 @@ The interactive Power BI dashboard includes:
 - Customer Satisfaction Distribution
 - Most Subscribed Services
 - Churn Reason Analysis
-- Interactive Year and Quarter Filters
+- Interactive Year, Quarter and Month Filters
 
 ---
 
@@ -110,13 +109,11 @@ The interactive Power BI dashboard includes:
 - Improve customer satisfaction through enhanced service quality.
 - Review pricing strategies to remain competitive.
 - Promote high-demand services through cross-selling opportunities.
-- Continuously monitor revenue trends using interactive dashboards.
 
 ---
 
 ## Repository Structure
 
-```text
 client-churn-revenue-forecasting/
 │
 ├── Raw Dataset/
@@ -136,5 +133,5 @@ client-churn-revenue-forecasting/
 │   └── Client Churn Prediction and Revenue Forecasting Report.pdf
 │
 └── README.md
-```
+
 This project is intended for educational and portfolio purposes
