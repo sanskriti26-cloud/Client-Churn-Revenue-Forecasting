@@ -113,8 +113,8 @@ The interactive Power BI dashboard includes:
 ---
 
 ## Repository Structure
-'''
-text
+
+```text
 client-churn-revenue-forecasting/
 │
 ├── Raw Dataset/
@@ -134,6 +134,5 @@ client-churn-revenue-forecasting/
 │   └── Client Churn Prediction and Revenue Forecasting Report.pdf
 │
 └── README.md
-'''
 
 This project is intended for educational and portfolio purposes
